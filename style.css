@@ -203,13 +203,13 @@ span {
     align-items: center;
     justify-content: space-around;
     background: #FFF;
-    padding: 0px 240px;
-    gap: 24px;
+    padding: 0px 150px;
+    gap: 20px;
 }
 
 .image {
-   width: 350px;
-   height: 400px;
+    width: 350px;
+    height: 400px;
 }
 
 .flower {
@@ -217,4 +217,49 @@ span {
     width: 400px;
     margin-bottom: -42px;
     padding: 40px 30px;
-} 
+}
+
+/* subscribe section related styles */
+.subscribe {
+    height: 60vh;
+    background-color: #FFF;
+    background-image: url('asset/Rectangle 9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 122px 287px;
+}
+
+.subscribe-section {
+    text-align: center;
+    padding: 200px;
+
+}
+
+.subscribe-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.subscribe-button {
+    text-align: center;
+}
+
+.subscribe-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 0px;
+    margin-bottom: 48px;
+}
+
+.email-design {
+    width: 700px;
+    height: 70px;
+    border-radius: 8px;
+    background: #FFF;
+    padding-left: 10px;
+    margin-right: 5px;
+
+}
