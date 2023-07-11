@@ -133,7 +133,8 @@ header {
     gap: 215px;
     padding-right: 423px;
     padding-left: 429px;
-    height: 85vh;
+    height: 70vh;
+    margin-top: -40px;
 }
 
 .sign-up-content {
@@ -163,7 +164,57 @@ header {
     margin-top: 24px;
     margin-bottom: 24px;
 }
-span{
-   color: #E55473;
+
+span {
+    color: #E55473;
 }
 
+/* Instagram section related styles */
+.instagram {
+    height: 80vh;
+    background-color: #FFF;
+}
+
+.instagram-section {
+    /* margin-top: 130px; */
+}
+
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 130px;
+}
+
+.section-description {
+    margin-top: 24px;
+    margin-bottom: 48px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 22px 18px;
+}
+
+.section-images {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #FFF;
+    padding: 0px 240px;
+    gap: 24px;
+}
+
+.image {
+   width: 350px;
+   height: 400px;
+}
+
+.flower {
+    height: 500px;
+    width: 400px;
+    margin-bottom: -42px;
+    padding: 40px 30px;
+} 
